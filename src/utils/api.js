@@ -49,7 +49,7 @@ export const eliminarVehiculo = async (id, successCallback, errorCallback) => {
 export const obtenerUsuarios = async (successCallback, errorCallback) => {
   const options = {
     method: 'GET',
-    url: 'https://immense-depths-66864.herokuapp.com/usuarios',
+    url: 'https://immense-depths-66864.herokuapp.com/usuarios/',
     headers: {
       Authorization: getToken(),
     },
@@ -60,7 +60,7 @@ export const obtenerUsuarios = async (successCallback, errorCallback) => {
 export const obtenerDatosUsuario = async (successCallback, errorCallback) => {
   const options = {
     method: 'GET',
-    url: 'https://immense-depths-66864.herokuapp.com/usuarios/self',
+    url: 'https://immense-depths-66864.herokuapp.com/usuarios/self/',
     headers: {
       Authorization: getToken(), // 3. enviarle el token a backend
     },
@@ -83,7 +83,7 @@ export const editarUsuario = async (id, data, successCallback, errorCallback) =>
 export const crearVenta = async (data, successCallback, errorCallback) => {
   const options = {
     method: 'POST',
-    url: 'https://immense-depths-66864.herokuapp.com/ventas',
+    url: 'https://immense-depths-66864.herokuapp.com/ventas/',
     headers: { 'Content-Type': 'application/json', Authorization: getToken() },
     data,
   };

@@ -27,7 +27,7 @@ function App() {
     <Auth0Provider
       domain='concesionariousadosmt.us.auth0.com'
       clientId='NNgEcM4U8OThDaDHK9CASku67PAAifr3'
-      redirectUri='http://localhost:3000/admin'
+      redirectUri='https://stormy-spire-59154.herokuapp.com/admin'
       audience='concesionario-usados-api'
     >
       <div className='App'>

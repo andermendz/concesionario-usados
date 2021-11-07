@@ -38,7 +38,7 @@ const PrivateLayout = ({ children }) => {
         },
         (err) => {
           console.log('err', err);
-          logout({ returnTo: 'http://localhost:3000/admin' });
+          logout({ returnTo: 'https://stormy-spire-59154.herokuapp.com/admin' });
           setLoadingUserInformation(false);
           
         }
